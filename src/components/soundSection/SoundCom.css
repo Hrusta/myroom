@@ -1,0 +1,83 @@
+/* SoundCom.css */
+
+.SoundCom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding:  20px; /* add some padding on the sides */
+  
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.SoundCom p {
+  font-size: 16px;
+  color: #333;
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: bold;
+}
+
+.SoundCom div {
+  cursor: pointer;
+  font-size: 35px;
+  color: #333;
+}
+
+.SoundContainer input[type="range"] {
+  border-bottom: none;
+  -webkit-appearance: none;
+  width: 100%;
+  background: transparent;
+}
+
+.SoundContainer input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+
+.SoundContainer input[type="range"]::-webkit-slider-runnable-track {
+  width: 90%;
+  height: 1px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: #3071a9;
+}
+
+.SoundContainer input[type="range"]::-webkit-slider-thumb {
+
+  height: 11px;
+  width: 11px;
+  border-radius: 50%;
+  background: #44806c;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -5px;
+}
+
+.title {
+  font-size: 16px;
+}
+
+.SoundContainer {
+  width: 300px;
+  max-height: 300px;
+}
+
+.play {
+  font-size: 25px;
+  margin-left: 20px; /* add some space between the title and the play button */
+}
+
+.volume-control {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+@media (max-width: 1397px) {
+  .SoundCom {
+    text-align: center;
+  }
+}
+

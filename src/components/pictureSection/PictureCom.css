@@ -1,0 +1,35 @@
+/* PictureCom.css */
+
+.PictureCom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .PictureCom img {
+    width: 100%;
+    max-width: 600px;
+    object-fit: cover;
+    margin-left: -150px;
+  }
+  
+
+  @media (max-width: 1550px) {
+    .PictureCom img {
+      margin-left: -50px;
+    }
+  }
+
+  @media (max-width: 1397px) {
+    .PictureCom img {
+      margin-left: 0;
+    }
+  }
+  @media (max-width: 768px) {
+    .PictureCom img {
+      display: none;
+    }
+    .PictureCom{
+        width: 0;
+    }
+  }

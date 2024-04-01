@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.box {
+  flex: 1;
+  margin: 15px;
+  padding: 40px;
+  
+}
+
+@media (max-width: 1397px) {
+  .container {
+    flex-direction: column;
+    justify-content: center; 
+    
+  }
+}
+
+@media (max-width: 768px) {
+  #box2{
+    display: none;
+  }
+}
+#box3{
+  margin-top: 40px;
+  margin-right: -250px;
+}
+
+@media (max-width: 1550px) {
+  #box3{
+    margin-right: -110px;
+  }
+}
+
+@media (max-width: 768px) {
+  #box2{
+    display: none;
+  }
+}
+
+
+@media (max-width: 1397px) {
+  #box3 {
+    margin: 0 auto;
+  }
+}

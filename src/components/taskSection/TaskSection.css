@@ -1,0 +1,132 @@
+h1{
+  font-size:50px !important;
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+.para{
+  margin-top: -25px;
+  font-size: 23px !important;
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+.taskList{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.task{
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255,255,255,.5);;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  width: 360px;
+  height: 40px;
+  
+  
+ 
+}
+
+input {
+font-size: 16px;
+font-weight: 400;
+width: 240px;
+color: #344054;
+background: #c8e0da;
+padding: 10px 14px;
+border: none;
+border-bottom: 2px solid #344054 ;
+
+}
+
+input::placeholder {
+font-size: 16px;
+font-weight: 400;
+color: #667085;
+}
+
+.input::focus{
+border:none;
+}
+
+
+
+
+.btn{
+
+font-family: Roboto, sans-serif;
+font-weight: 0;
+font-size: 13px;
+color: black;
+background: #c8e0da;
+padding: 10px 30px;
+border: solid #000000 2px;
+box-shadow: none;
+border-radius: 1px;
+display: flex;
+flex-direction: row;
+align-items: center;
+cursor: pointer;
+
+}
+
+.btn:hover{
+
+transition : 0ms;
+background-color: #c4dbd5;
+color: #000000;
+border: solid 2px black;
+}
+
+
+.inputBox{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  width:360px;
+  background: #c8e0da;
+}
+
+
+
+
+
+.taskSectionContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 600px; 
+  
+}
+
+@media (max-width: 1391px) {
+  .taskSectionContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 600px; 
+  }
+}
+
+
+.delBtn{
+  cursor: pointer;
+}

@@ -1,0 +1,10 @@
+body{
+  background-color: #c8e0da;
+  margin-top: 100px;
+}
+
+@media (max-width: 1397px) {
+  body{
+    margin-top: 50px;
+  }
+}
