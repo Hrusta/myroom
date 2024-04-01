@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/myroom/static/css/main.d6a5940f.css",
+    "main.js": "/myroom/static/js/main.df835688.js",
+    "static/js/885.ebc0ebbb.chunk.js": "/myroom/static/js/885.ebc0ebbb.chunk.js",
+    "static/media/pic.png": "/myroom/static/media/pic.733840aa019c298c9669.png",
+    "static/media/rain.mp3": "/myroom/static/media/rain.e583decffe60aae67d46.mp3",
+    "static/media/keyboard.mp3": "/myroom/static/media/keyboard.f7083bc2fc3a045dbee9.mp3",
+    "static/media/river.mp3": "/myroom/static/media/river.697f27d44b6073bfe051.mp3",
+    "static/media/fire.mp3": "/myroom/static/media/fire.d9b9ab0e66cfdf640878.mp3",
+    "static/media/book.mp3": "/myroom/static/media/book.4df243efa8f144ccd0cc.mp3",
+    "index.html": "/myroom/index.html",
+    "main.d6a5940f.css.map": "/myroom/static/css/main.d6a5940f.css.map",
+    "main.df835688.js.map": "/myroom/static/js/main.df835688.js.map",
+    "885.ebc0ebbb.chunk.js.map": "/myroom/static/js/885.ebc0ebbb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6a5940f.css",
+    "static/js/main.df835688.js"
+  ]
+}
