@@ -125,6 +125,14 @@ border: solid 2px black;
     max-width: 600px; 
   }
 }
+@media (max-width: 481px) {
+ .taskList{
+  margin-left: 10px;
+}
+  .task{
+  margin-left: 10px;
+}
+}
 
 
 .delBtn{
