@@ -1,4 +1,4 @@
-https://hrusta.github.io/myroom/
+Check out the live version of this project: https://hrusta.github.io/myroom/
 
 Introducing "i miss my room" – your personalized virtual space designed to replicate the cozy ambiance of your sanctuary. With a focus on simplicity and relaxation, this React app offers two essential features:
 
